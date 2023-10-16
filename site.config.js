@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '6a76fdd9ec6d4ae2855aa790d620eec4',
+  rootNotionPageId: '816eb48c9061437ca2ab07dad7ca981f',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -40,7 +40,7 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // set null to remove from year
   copyRightFromYear: 2019,
